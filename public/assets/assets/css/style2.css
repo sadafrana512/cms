@@ -1,0 +1,350 @@
+
+.apply-btn {
+   font-weight: bold;
+   text-transform: uppercase;
+   background-color: #3498db; /* Adjust the color as needed */
+   color: #fff; /* Text color */
+   border-color: #3498db; /* Border color */
+}
+.edit-heading {
+font-size: 1.5rem; /* Adjust the font size */
+font-weight: bold; /* Make the text bold */
+margin-bottom: 20px; /* Add some bottom margin for spacing */
+color: #333; /* Set the text color */
+}
+.apply-btn:hover {
+   background-color: #297fb8; /* Adjust the hover color as needed */
+   border-color: #297fb8; /* Adjust the hover border color as needed */
+   color: #fff; /* Hover text color */
+}
+.edit-button {
+padding: 10px 20px; /* Increase padding for a larger size */
+font-size: 16px; /* Increase font size */
+background-color: #007bff; /* Primary blue color */
+color: white; /* White text */
+border: none; /* Remove border */
+border-radius: 5px; /* Rounded corners */
+cursor: pointer; /* Pointer cursor on hover */
+transition: background-color 0.3s ease; /* Smooth transition for background color */
+display: inline-block; /* Ensure the button stays inline-block */
+margin-right: 10px; /* Add margin for spacing */
+}
+.edit-button,
+.delete-button {
+padding: 10px 20px;
+font-size: 16px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s, color 0.3s;
+}
+.alert {
+   padding: 15px;
+   margin-bottom: 20px;
+   border: 1px solid transparent;
+   border-radius: 4px;
+}
+
+.alert-success {
+   color: #155724;
+   background-color: #d4edda;
+   border-color: #c3e6cb;
+}
+.progress {
+       height: 20px;
+       background-color: #f3f3f3;
+       border-radius: 5px;
+       overflow: hidden;
+   }
+   .progress-bar {
+       height: 100%;
+       background-color: #4caf50;
+       width: 0;
+       transition: width 0.4s ease;
+   }
+   .capitalize {
+text-transform: capitalize;
+}
+.alert-error {
+   color: #721c24;
+   background-color: #f8d7da;
+   border-color: #f5c6cb;
+}
+.edit-button {
+background-color: #4caf50; /* Green color */
+color: white;
+}
+
+.delete-button {
+background-color: #f44336; /* Red color */
+color: white;
+}
+.container {
+   margin-top: 50px;
+   text-align: center;
+}
+
+.progress {
+   width: 50%; /* Adjust the width of the progress bar */
+   margin: 0 auto;
+}
+
+.progress-bar {
+   background-color: #007bff; /* Progress bar color */
+   color: white; /* Text color */
+   font-weight: bold;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+opacity: 0.8; /* Reduce opacity on hover for visual feedback */
+}
+.card-header strong,
+.card-body h3,
+.card-body p,
+.card-body span,
+.card-body a {
+font-size: 18px;
+font-weight: bold;
+
+}
+
+/* Applying specific colors to elements */
+
+
+#card2 .card-header {
+background-color: #3c8dbc;
+}
+
+.card-body p:nth-of-type(1),
+.card-body p:nth-of-type(3),
+.card-body p:nth-of-type(4) {
+color: crimson;
+}
+.custom-btn.active {
+background-color: #3498db;
+color: #fff;
+}
+
+.custom-btn.active:hover {
+background-color: #2980b9;
+color: #fff;
+}
+.card-body p:nth-of-type(2) b {
+color: black;
+}
+
+#card2 .card-body span:nth-of-type(1) {
+color: crimson;
+}
+
+#card2 .card-body span:nth-of-type(2) {
+color: crimson;
+}
+
+#card3 .card-header {
+background-color: #00c0ef;
+}
+
+#card3 .card-body h3 a,
+#card3 .card-body p a {
+color: #428bca;
+}
+/* Custom styling for alerts */
+.custom-alert {
+background-color: #d1ecf1;
+color: #0c5460;
+border: 1px solid #bee5eb;
+padding: 15px;
+margin-bottom: 15px;
+}
+
+/* Increase font size of alert text */
+.alert-text {
+font-size: 18px;
+}
+.home-heading {
+font-size: 24px; /* Adjust the font size */
+font-weight: bold; /* Set font weight */
+color: #333; /* Change the text color */
+/* Add more styles as needed */
+}
+#lumsDataTable {
+   width: 100%;
+   border-collapse: collapse;
+   margin-top: 20px;
+}
+
+#lumsDataTable th,
+#lumsDataTable td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   text-align: left;
+}
+
+#lumsDataTable th {
+   background-color: #f2f2f2;
+}
+
+/* Style for the labels in the Status column */
+.label {
+   padding: 5px 10px;
+   border-radius: 3px;
+}
+
+.label-danger {
+   background-color: #dc3545;
+   color: #fff;
+}
+
+.label-success {
+   background-color: #28a745;
+   color: #fff;
+}
+
+/* Style for the links in the Action column */
+.label-inline {
+   text-decoration: none;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 5px;
+}
+
+.label-danger:hover,
+.label-success:hover {
+   opacity: 0.8;
+}
+.d-flex {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+background-color: #f8f9fa;
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile pic styles */
+.symbol img {
+max-width: 100%;
+border-radius: 50%;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* User information section styles */
+.flex-grow-1 {
+padding-left: 20px;
+text-align: center;
+}
+
+/* User name styles */
+.text-dark-50 strong {
+color: #007bff;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+/* Other user information styles */
+.text-dark-50 {
+font-size: 18px;
+color: #495057; /* Dark text color */
+margin-bottom: 10px;
+}
+
+/* Timer card styles */
+.card-custom {
+background-color: #d9534f;
+color: #fff;
+border: none;
+border-radius: 8px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+#previewImage {
+   max-width: 100px; /* Adjust the maximum width as needed */
+   max-height: 100px; /* Adjust the maximum height as needed */
+}
+.active {
+background-color: grey; /* Set the background color for the active state */
+color: white; /* Set the text color for the active state */
+/* Add any other styles you want for the active state */
+}
+
+.custom-btn:not(.active) {
+/* Add styles for buttons that are not active (optional) */
+}
+/* Timer elements styles */
+#TimerDay,
+#TimerHrs,
+#TimerMin {
+background-color: #ffffff;
+color: #d9534f;
+border-radius: 5px;
+padding: 10px;
+margin: 0 10px;
+font-size: 24px;
+}
+
+/* Timer text styles */
+#TimerDay span,
+#TimerHrs span,
+#TimerMin span {
+display: block;
+font-size: 18px;
+color: #d9534f;
+}
+.btn-group {
+display: flex;
+justify-content: center;
+margin-bottom: 20px; /* Optional: Add margin if needed */
+}
+
+.btn-group .btn {
+background-color: #3498db;
+color: #fff;
+border: 1px solid #2980b9;
+border-radius: 5px;
+padding: 12px 24px;
+font-size: 18px;
+margin-right: 10px;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-group .btn:hover {
+background-color: #2980b9;
+color: #fff;
+}
+
+.btn-group .btn:first-child {
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+
+.btn-group .btn:last-child {
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+.custom-btn-container {
+   padding: 10px;
+   background-color: #f8f9fa;
+   border-radius: 3px;
+}
+
+.custom-btn-container a {
+   text-decoration: none;
+}
+
+.custom-btn {
+   padding: 10px 20px;
+   margin: 5px;
+   border-radius: 5px;
+   font-weight: bold;
+}
+
+.custom-btn.active {
+   background-color: #007bff;
+   color: #fff;
+}
